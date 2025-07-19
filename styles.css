@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      background: #ff6f61;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      padding: 2rem;
+      background: #ffe0b3;
+    }
+
+    .hero img {
+      max-width: 400px;
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .hero-text {
+      max-width: 500px;
+      padding: 1rem;
+    }
+
+    .hero-text h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #ff6f61;
+    }
+
+    .hero-text p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-text button {
+      background: #ff6f61;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      color: white;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .hero-text button:hover {
+      background: #e4574f;
+    }
+
+    footer {
+      background: #ffdab9;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
